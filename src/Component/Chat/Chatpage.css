@@ -1,0 +1,82 @@
+/* Add to ChatPage.css or similar */
+
+.chat-header {
+  background-color: #bfc1c0;
+  color: rgb(11, 11, 11);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.friend-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+main {
+  padding: 10px;
+  background: #0e0d0d;
+  height: calc(100vh - 130px);
+  overflow-y: auto;
+}
+
+.chat-form {
+  display: flex;
+  padding: 10px;
+  background: #f0f0f0;
+  position: sticky;
+  bottom: 0;
+}
+
+.chat-form input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.chat-form button {
+  background-color: #075e54;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #075e54;
+  color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-header-content {
+  display: flex;
+  align-items: center;
+}
+
+.friend-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  opacity: 0.8;
+}
